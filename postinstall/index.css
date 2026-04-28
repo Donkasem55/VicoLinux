@@ -1,0 +1,44 @@
+body {
+	background-color: #bcd7f4
+}
+
+.main {
+	background-color: #ffffff;
+	color: #000000;
+	margin: 25px;
+	border-radius: 30px;
+	width: calc(100vw - 95px);
+	height: calc(100vh - 75px);
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+	position: relative;
+}
+
+.header {
+	font-family: "Segoe UI";
+	font-size: 60px;
+	margin-left: 20px;
+}
+
+.bod {
+	font-family: "Segoe UI";
+	font-size: 24px;
+	margin-left: 20px;
+}
+
+.nextbtn {
+	font-family: "Segoe UI";
+	font-size: 20px;
+	right: 40px;
+	bottom: 40px;
+	background-color: #1689fc;
+	color: #ffffff;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	position: absolute;
+}
