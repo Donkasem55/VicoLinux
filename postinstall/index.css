@@ -1,9 +1,14 @@
 body {
-	background-color: #bcd7f4
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center center;
+	background-color: rgba(255,255,255,0.7);
+	background-blend-mode: lighten;
 }
 
 .main {
-	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0);
 	color: #000000;
 	margin: 25px;
 	border-radius: 30px;
@@ -14,6 +19,7 @@ body {
 	padding-left: 30px;
 	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 	position: relative;
+	opacity: 1;
 }
 
 .header {
@@ -41,4 +47,21 @@ body {
 	padding-bottom: 5px;
 	border-radius: 5px;
 	position: absolute;
+	text-decoration: none;
+}
+
+.backbtn {
+	font-family: "Segoe UI";
+	font-size: 20px;
+	left: 40px;
+	bottom: 40px;
+	background-color: #1689fc;
+	color: #ffffff;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	position: absolute;
+	text-decoration: none;
 }
